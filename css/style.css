@@ -3,10 +3,16 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/*Agregar fuentes*/
+ @font-face{
+ 	font-family: "roboto";
+ 	/*En caso que no soporte la primera fuente se le puede agregar otra*/
+ 	scr:url('https://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,500,700' rel='stylesheet' type='text/css') format('truetype');
+ }
 
 body{
 	background-color: #ECF0F1;
-	font-family: helvetica, sans-serif;
+	font-family: "roboto";
 }
 
 .contenedor{
